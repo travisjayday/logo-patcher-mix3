@@ -1,8 +1,8 @@
 # Written by Travis Ziegler 2019 #
 # program to patch oem boot/charging/fastboot logo of Xiamoi Mi Mix 3 phone #
-# see `python3 logogen.py --help` for help
+# see `python3 logogen.py --help` for help #
+# see https://github.com/travisjayday/logo-patcher-mix3 for more info #
 
-import math
 import sys
 import lzma
 import base64
