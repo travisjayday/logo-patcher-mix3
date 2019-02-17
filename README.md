@@ -44,4 +44,4 @@ To use a custom base image AND flash a custom charging logo AND flash a custom b
 python3 logogen.py -l custom.img -b boot_image.bmp -c new_battery.bmp -f new_fastboot.bmp
 ```
 # Have fun!
-![img2](https://user-images.githubusercontent.com/10280490/52920042-03ce1500-32ce-11e9-9f03-3e529e3e46ae.jpg)
+<img src="https://user-images.githubusercontent.com/10280490/52920042-03ce1500-32ce-11e9-9f03-3e529e3e46ae.jpg" width=300>
