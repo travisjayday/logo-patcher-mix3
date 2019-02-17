@@ -128,7 +128,7 @@ dimens = {"boot"    : (0x005000, "1080x1920x24"),
 usage = """Mix3 Logogen v1.0
 OEM bootlogo overwriting program for MiMix3 created by Travis Ziegler. 2019.
     
-Usage:  python3 logogen [option] [file] ... 
+Usage:  python3 logogen.py [option] [file] ... 
 
 options: 
     -b, --boot      replace boot image. File must be {} bitmap (24bpp). 
@@ -142,9 +142,9 @@ output:
     TWRP->install->image->select logo_patched.img->select logo->flash->reboot->profit
 
 example:
-        python3 logogen -b boot_image.bmp 
+        python3 logogen.py -b boot_image.bmp 
             patches boot_image.bmp as new oem boot logo
-        python3 logogen -l custom.img -b boot_image.bmp -c new_battery.bmp 
+        python3 logogen.py -l custom.img -b boot_image.bmp -c new_battery.bmp 
             patches custom.img with boot_image.bmp as boot logo and new_battery.bmp as chargin logo
 """.format(dimens["boot"][1], dimens["charge"][1], dimens["fastboot"][1])
 
