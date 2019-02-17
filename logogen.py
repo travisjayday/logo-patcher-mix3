@@ -139,7 +139,7 @@ options:
 
 output: 
     logo_patched.img. You must flash this with TWRP onto the logo partition.
-    TWRP->install->image->select logo_patched.img->select logo->flash->reboot->profit
+    TWRP->install->install image->select logo_patched.img->select logo->swipe to flash->reboot->profit
 
 example:
         python3 logogen.py -b boot_image.bmp 
