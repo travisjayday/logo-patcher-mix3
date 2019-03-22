@@ -41,8 +41,8 @@ def main():
         # patch fastboot image
         elif arg == "-f" or arg == "--fastboot":
             dim, data = readBmp(sys.argv[i + 1]) 
-            if dim != dimens["fast"][1]: 
-                mismatch(dimens["fast"])
+            if dim != dimens["fastboot"][1]: 
+                mismatch(dimens["fastboot"])
             patched = patch(patched, data, "fastboot")
         # load custom logo img
         elif arg == "-l" or arg == "--logoimg": 
